@@ -13,3 +13,9 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Deploy Smart Contract Locally
+
+```shell
+npx hardhat run scripts/deploy.js --network ropsten
+```
